@@ -32,7 +32,7 @@ function stopPainting(event){
 function startPainting(event){
     painting = true;
 }
-
+//오류 
 function onMouseMove(event){
     const x = event.offsetX;
     const y = event.offsetY;
@@ -78,7 +78,7 @@ function handleCM(event){ //우클릭 방지 함수
     event.preventDefault();
 }
 
-function handleSaveClick(){
+function handleSaveClick(){ //이미지 저장 
     const image = canvas.toDataURL("image/png");
     const link = document.createElement("a");
     link.href = image;
