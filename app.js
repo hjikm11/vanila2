@@ -32,7 +32,7 @@ function stopPainting(event){
 function startPainting(event){
     painting = true;
 }
-//오류 
+ 
 function onMouseMove(event){
     const x = event.offsetX;
     const y = event.offsetY;
